@@ -1,5 +1,5 @@
 # Chaturbate-WPF
-Tiny Windows App to record your favourite Chaturbate Creators.
+Tiny Windows App built with libvlc instead of ffmpeg to record your favourite Chaturbate Creators.
 
 The program can records multiple Chaturbate streams, supports Windows, You need to Install .NET 8.0 or higher to run this program.
 For Chaturbate-only, private/ticket stream is unsupported.
