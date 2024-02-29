@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Git0x0v\\Chaturbate-WPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDFC774-05A3-4EFE-8886-7466E3646E6B}|CBDownloader\\CBDownloader.csproj|d:\\git0x0v\\chaturbate-wpf\\cbdownloader\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FDFC774-05A3-4EFE-8886-7466E3646E6B}|CBDownloader\\CBDownloader.csproj|solutionrelative:cbdownloader\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDFC774-05A3-4EFE-8886-7466E3646E6B}|CBDownloader\\CBDownloader.csproj|d:\\git0x0v\\chaturbate-wpf\\cbdownloader\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4FDFC774-05A3-4EFE-8886-7466E3646E6B}|CBDownloader\\CBDownloader.csproj|solutionrelative:cbdownloader\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Git0x0v\\Chaturbate-WPF\\CBDownloader\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "CBDownloader\\MainWindow.xaml",
+              "ToolTip": "D:\\Git0x0v\\Chaturbate-WPF\\CBDownloader\\MainWindow.xaml",
+              "RelativeToolTip": "CBDownloader\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-29T19:27:49.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Git0x0v\\Chaturbate-WPF\\CBDownloader\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CBDownloader\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Git0x0v\\Chaturbate-WPF\\CBDownloader\\MainWindow.xaml.cs",
+              "RelativeToolTip": "CBDownloader\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T19:26:17.481Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

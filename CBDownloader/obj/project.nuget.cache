@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vk778vjsXi1sYWa0q8mPRl+ev4uEmQDyRbTf4SNPT3xpexI7pRsxdStSI561uWJ9dtLVUS+eWYFPAMvOiokRZg==",
+  "dgSpecHash": "JOyEjiu5XkwVmBeUYvTzSX/TGdi/n/FUH6Q4B2kSHBuOq+XNJKdPebJL8Rjim3pcH4aTja/0yma1alnZNcNatQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aveek\\Documents\\GitHub\\CB-WPF\\CBDownloader\\CBDownloader.csproj",
+  "projectFilePath": "D:\\Git0x0v\\Chaturbate-WPF\\CBDownloader\\CBDownloader.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aveek\\.nuget\\packages\\libvlcsharp\\3.8.2\\libvlcsharp.3.8.2.nupkg.sha512",
     "C:\\Users\\Aveek\\.nuget\\packages\\libvlcsharp.wpf\\3.8.2\\libvlcsharp.wpf.3.8.2.nupkg.sha512",

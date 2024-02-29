@@ -24,7 +24,7 @@
             <ListBox x:Name="checkedList" Background="{x:Null}" SelectionChanged="showLive" SelectionMode="Single" Foreground="#FF00FF04"/>
         </GroupBox>
         <Button x:Name="addCreatorBTN" Content="Add" HorizontalAlignment="Left" Margin="290,404,0,0" VerticalAlignment="Top" Width="53" Click="addCreatorClick" Grid.Column="2"/>
-        <TextBox x:Name="addCreator" HorizontalAlignment="Left" Margin="523,405,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="286" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="addCreator" HorizontalAlignment="Left" Margin="518,405,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="286" Grid.Column="1" Grid.ColumnSpan="2"/>
         <Border BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="3">
             <RichTextBox x:Name="LogRT" Margin="246,428,65,9" Background="{x:Null}" SelectionBrush="#FFA8E62B" Foreground="#FF58DDFF">
                 <FlowDocument>
@@ -35,10 +35,10 @@
             </RichTextBox>
         </Border>
         <Button x:Name="locationBTN" Content="Loc" HorizontalAlignment="Left" Margin="183,405,0,0" VerticalAlignment="Top" Width="53" Click="selectLocationBTN" Grid.Column="1"/>
-        <Button x:Name="stopLiveBTN" Content="Stop Live" HorizontalAlignment="Left" Margin="290,428,0,0" VerticalAlignment="Top" Width="53" Click="stopLiveBTN_Click" Grid.Column="2"/>
-        <Button x:Name="record_all_BTN" Content="Rec All" HorizontalAlignment="Left" Margin="290,452,0,0" VerticalAlignment="Top" Width="53" Click="record_all_Click" Grid.Column="2"/>
-        <Button x:Name="record_selected_BTN" Content="Rec Sel" HorizontalAlignment="Left" Margin="290,475,0,0" VerticalAlignment="Top" Width="53" Click="record_sel_click" Grid.Column="2"/>
-        <Button x:Name="stop_all_BTN" Content="Stop All" HorizontalAlignment="Left" Margin="290,498,0,0" VerticalAlignment="Top" Width="53" Click="stop_all_click" Grid.Column="2"/>
+        <Button x:Name="stopLiveBTN" Content="Stop Live" HorizontalAlignment="Left" Margin="290,437,0,0" VerticalAlignment="Top" Width="53" Click="stopLiveBTN_Click" Grid.Column="2"/>
+
+        <Button x:Name="record_selected_BTN" Content="Rec Sel" HorizontalAlignment="Left" Margin="290,469,0,0" VerticalAlignment="Top" Width="53" Click="record_sel_click" Grid.Column="2"/>
+        <Button x:Name="stop_all_BTN" Content="Stop All" HorizontalAlignment="Left" Margin="290,503,0,0" VerticalAlignment="Top" Width="53" Click="stop_all_click" Grid.Column="2"/>
         <TextBox x:Name="locationTxt" HorizontalAlignment="Left" Margin="241,405,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="277" Grid.Column="1"/>
     </Grid>
 </Window>

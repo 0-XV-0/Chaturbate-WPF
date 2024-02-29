@@ -203,11 +203,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aveek\\Documents\\GitHub\\CB-WPF\\CBDownloader\\CBDownloader.csproj",
+      "projectUniqueName": "D:\\Git0x0v\\Chaturbate-WPF\\CBDownloader\\CBDownloader.csproj",
       "projectName": "CBDownloader",
-      "projectPath": "C:\\Users\\Aveek\\Documents\\GitHub\\CB-WPF\\CBDownloader\\CBDownloader.csproj",
+      "projectPath": "D:\\Git0x0v\\Chaturbate-WPF\\CBDownloader\\CBDownloader.csproj",
       "packagesPath": "C:\\Users\\Aveek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aveek\\Documents\\GitHub\\CB-WPF\\CBDownloader\\obj\\",
+      "outputPath": "D:\\Git0x0v\\Chaturbate-WPF\\CBDownloader\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

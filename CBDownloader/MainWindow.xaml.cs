@@ -311,11 +311,7 @@ public partial class MainWindow : Window
         
     }
 
-    private void record_all_Click(object sender, RoutedEventArgs e)
-    {
-
-    }
-    
+       
     private void record_sel_click(object sender, RoutedEventArgs e)
     {
         try
