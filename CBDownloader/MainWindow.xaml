@@ -1,0 +1,44 @@
+﻿<Window x:Class="CBDownloader.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CBDownloader"
+        xmlns:wpf="clr-namespace:LibVLCSharp.WPF;assembly=LibVLCSharp.WPF"
+        mc:Ignorable="d"
+        Title="CB Downloader" Height="556" Width="930" ResizeMode="NoResize" Background="Black" WindowStartupLocation="CenterScreen" Closing="cbClosing">
+    <Grid Margin="0,0,0,1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="65*"/>
+            <ColumnDefinition Width="524*"/>
+            <ColumnDefinition Width="353*"/>
+        </Grid.ColumnDefinitions>
+        <GroupBox Header="Live View" Margin="183,10,10,145" Background="Black" Foreground="Red" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <wpf:VideoView Name="CBLive" Margin="188,29,18,152" Content="C:\Users\Aveek\Downloads\wd.mp4" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <GridSplitter HorizontalAlignment="Left" Height="402" Margin="166,74,0,0" VerticalAlignment="Top" Width="2" Grid.Column="1"/>
+        <GroupBox Header="Creators Available" Margin="10,10,366,246" Foreground="Red" Grid.ColumnSpan="2">
+            <ListBox x:Name="initialList" Height="249" Margin="0,0,-2,0" MouseDoubleClick="InitialList_OnMouseDoubleClick" Background="{x:Null}" Foreground="Red"/>
+
+        </GroupBox>
+        <GroupBox Header="Creators Live" Margin="10,286,366,10" Foreground="#FF1FFF00" Grid.ColumnSpan="2">
+            <ListBox x:Name="checkedList" Background="{x:Null}" SelectionChanged="showLive" SelectionMode="Single" Foreground="#FF00FF04"/>
+        </GroupBox>
+        <Button x:Name="addCreatorBTN" Content="Add" HorizontalAlignment="Left" Margin="290,404,0,0" VerticalAlignment="Top" Width="53" Click="addCreatorClick" Grid.Column="2"/>
+        <TextBox x:Name="addCreator" HorizontalAlignment="Left" Margin="523,405,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="286" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="3">
+            <RichTextBox x:Name="LogRT" Margin="246,428,65,9" Background="{x:Null}" SelectionBrush="#FFA8E62B" Foreground="#FF58DDFF">
+                <FlowDocument>
+                    <Paragraph>
+                        <Run Text=""/>
+                    </Paragraph>
+                </FlowDocument>
+            </RichTextBox>
+        </Border>
+        <Button x:Name="locationBTN" Content="Loc" HorizontalAlignment="Left" Margin="183,405,0,0" VerticalAlignment="Top" Width="53" Click="selectLocationBTN" Grid.Column="1"/>
+        <Button x:Name="stopLiveBTN" Content="Stop Live" HorizontalAlignment="Left" Margin="290,428,0,0" VerticalAlignment="Top" Width="53" Click="stopLiveBTN_Click" Grid.Column="2"/>
+        <Button x:Name="record_all_BTN" Content="Rec All" HorizontalAlignment="Left" Margin="290,452,0,0" VerticalAlignment="Top" Width="53" Click="record_all_Click" Grid.Column="2"/>
+        <Button x:Name="record_selected_BTN" Content="Rec Sel" HorizontalAlignment="Left" Margin="290,475,0,0" VerticalAlignment="Top" Width="53" Click="record_sel_click" Grid.Column="2"/>
+        <Button x:Name="stop_all_BTN" Content="Stop All" HorizontalAlignment="Left" Margin="290,498,0,0" VerticalAlignment="Top" Width="53" Click="stop_all_click" Grid.Column="2"/>
+        <TextBox x:Name="locationTxt" HorizontalAlignment="Left" Margin="241,405,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="277" Grid.Column="1"/>
+    </Grid>
+</Window>

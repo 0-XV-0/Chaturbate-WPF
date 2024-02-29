@@ -1,0 +1,289 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "LibVLCSharp/3.8.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/LibVLCSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/LibVLCSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "LibVLCSharp.WPF/3.8.2": {
+        "type": "package",
+        "dependencies": {
+          "LibVLCSharp": "3.8.2"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/LibVLCSharp.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/LibVLCSharp.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Ookii.Dialogs.Wpf/5.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/Ookii.Dialogs.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Ookii.Dialogs.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "LibVLCSharp/3.8.2": {
+      "sha512": "P61Pkc+2GgX9PGJmm0MTVYKh0zPbak25rkyb5MU8Vq7x/VgFV/0h3L2bP7H4Oz5sfmm03H8T010cqEKQVA4Jew==",
+      "type": "package",
+      "path": "libvlcsharp/3.8.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/monoandroid81/LibVLCSharp.Android.AWindow.dll",
+        "lib/monoandroid81/LibVLCSharp.dll",
+        "lib/monoandroid81/LibVLCSharp.xml",
+        "lib/net40/LibVLCSharp.dll",
+        "lib/net40/LibVLCSharp.xml",
+        "lib/net471/LibVLCSharp.dll",
+        "lib/net471/LibVLCSharp.xml",
+        "lib/net6.0-android31.0/LibVLCSharp.Android.AWindow.dll",
+        "lib/net6.0-android31.0/LibVLCSharp.dll",
+        "lib/net6.0-android31.0/LibVLCSharp.xml",
+        "lib/net6.0-ios16.1/LibVLCSharp.dll",
+        "lib/net6.0-ios16.1/LibVLCSharp.xml",
+        "lib/net6.0-macos13.0/LibVLCSharp.dll",
+        "lib/net6.0-macos13.0/LibVLCSharp.xml",
+        "lib/net6.0-tvos16.1/LibVLCSharp.dll",
+        "lib/net6.0-tvos16.1/LibVLCSharp.xml",
+        "lib/net6.0-windows10.0.17763/LibVLCSharp.dll",
+        "lib/net6.0-windows10.0.17763/LibVLCSharp.pri",
+        "lib/net6.0-windows10.0.17763/LibVLCSharp.xml",
+        "lib/net6.0/LibVLCSharp.dll",
+        "lib/net6.0/LibVLCSharp.xml",
+        "lib/netstandard1.1/LibVLCSharp.dll",
+        "lib/netstandard1.1/LibVLCSharp.xml",
+        "lib/netstandard2.0/LibVLCSharp.dll",
+        "lib/netstandard2.0/LibVLCSharp.xml",
+        "lib/netstandard2.1/LibVLCSharp.dll",
+        "lib/netstandard2.1/LibVLCSharp.xml",
+        "lib/uap10.0.18362/LibVLCSharp.dll",
+        "lib/uap10.0.18362/LibVLCSharp.pri",
+        "lib/uap10.0.18362/LibVLCSharp.xml",
+        "lib/uap10.0.18362/LibVLCSharp/LibVLCSharp.xr.xml",
+        "lib/xamarinios10/LibVLCSharp.dll",
+        "lib/xamarinios10/LibVLCSharp.xml",
+        "lib/xamarinmac20/LibVLCSharp.dll",
+        "lib/xamarinmac20/LibVLCSharp.xml",
+        "libvlcsharp.3.8.2.nupkg.sha512",
+        "libvlcsharp.nuspec"
+      ]
+    },
+    "LibVLCSharp.WPF/3.8.2": {
+      "sha512": "Zcis5939Cqqjk6GYepb6LGtWkaeGQ0tQejTLe5gr2EJyFEwORmJPtWq/4/IvEq31GwfmEP0REDYVNWYYGCTnsw==",
+      "type": "package",
+      "path": "libvlcsharp.wpf/3.8.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net461/LibVLCSharp.WPF.dll",
+        "lib/net461/LibVLCSharp.WPF.xml",
+        "lib/net6.0-windows7.0/LibVLCSharp.WPF.dll",
+        "lib/net6.0-windows7.0/LibVLCSharp.WPF.xml",
+        "lib/netcoreapp3.1/LibVLCSharp.WPF.dll",
+        "lib/netcoreapp3.1/LibVLCSharp.WPF.xml",
+        "libvlcsharp.wpf.3.8.2.nupkg.sha512",
+        "libvlcsharp.wpf.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Ookii.Dialogs.Wpf/5.0.1": {
+      "sha512": "iZNnZwqTpK0cfR0vkotncP1c025/PHlIdzc7iEKBYwhVv1V0zXp9/RT/O0kMhsmlwXqRxxbE4pdhfinbJXtjPg==",
+      "type": "package",
+      "path": "ookii.dialogs.wpf/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/icon.png",
+        "lib/net462/Ookii.Dialogs.Wpf.dll",
+        "lib/net462/Ookii.Dialogs.Wpf.pdb",
+        "lib/net462/Ookii.Dialogs.Wpf.xml",
+        "lib/net5.0-windows7.0/Ookii.Dialogs.Wpf.dll",
+        "lib/net5.0-windows7.0/Ookii.Dialogs.Wpf.pdb",
+        "lib/net5.0-windows7.0/Ookii.Dialogs.Wpf.xml",
+        "lib/net6.0-windows7.0/Ookii.Dialogs.Wpf.dll",
+        "lib/net6.0-windows7.0/Ookii.Dialogs.Wpf.pdb",
+        "lib/net6.0-windows7.0/Ookii.Dialogs.Wpf.xml",
+        "lib/netcoreapp3.1/Ookii.Dialogs.Wpf.dll",
+        "lib/netcoreapp3.1/Ookii.Dialogs.Wpf.pdb",
+        "lib/netcoreapp3.1/Ookii.Dialogs.Wpf.xml",
+        "ookii.dialogs.wpf.5.0.1.nupkg.sha512",
+        "ookii.dialogs.wpf.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "LibVLCSharp >= 3.8.2",
+      "LibVLCSharp.WPF >= 3.8.2",
+      "Newtonsoft.Json >= 13.0.3",
+      "Ookii.Dialogs.Wpf >= 5.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Aveek\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Aveek\\Documents\\GitHub\\CB-WPF\\CBDownloader\\CBDownloader.csproj",
+      "projectName": "CBDownloader",
+      "projectPath": "C:\\Users\\Aveek\\Documents\\GitHub\\CB-WPF\\CBDownloader\\CBDownloader.csproj",
+      "packagesPath": "C:\\Users\\Aveek\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Aveek\\Documents\\GitHub\\CB-WPF\\CBDownloader\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Aveek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "LibVLCSharp": {
+            "target": "Package",
+            "version": "[3.8.2, )"
+          },
+          "LibVLCSharp.WPF": {
+            "target": "Package",
+            "version": "[3.8.2, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
+          },
+          "Ookii.Dialogs.Wpf": {
+            "target": "Package",
+            "version": "[5.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
